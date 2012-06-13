@@ -52,7 +52,7 @@ The following is required to complete this hands-on lab:
 
 In order to execute the exercises in this hands-on lab you need to set up your environment.
 
-1. Open a Windows Explorer window and browse to the lab’s **source** folder.
+1. Open a Windows Explorer window and browse to the lab’s **Source** folder.
 
 1. Execute the **Setup.cmd** file with Administrator privileges to launch the setup process that will configure your environment and install the Visual Studio code snippets for this lab.
 
@@ -101,7 +101,7 @@ In this task, you create a new Cloud Service project in Visual Studio.
 
 1. From the **File** menu, choose **New** and then **Project**.  
 
-1. In the **New Project dialog**, expand **Visual C#** in the **Installed Templates** list and select **Cloud**. Choose the **Windows Azure Project** template, set the Name of the project to GuestBook, set the location to **\source\Ex1-BuildingYourFirstWindowsAzureApp**, change the solution name to **Begin**, and ensure that **Create directory for solution** is checked. Click **OK** to create the project.
+1. In the **New Project dialog**, expand **Visual C#** in the **Installed Templates** list and select **Cloud**. Choose the **Windows Azure Project** template, set the Name of the project to GuestBook, set the location to **\Source\Ex1-BuildingYourFirstWindowsAzureApp**, change the solution name to **Begin**, and ensure that **Create directory for solution** is checked. Click **OK** to create the project.
 
 	![Creating a new Windows Azure Cloud Service project](images/new-cloud-service-project.png?raw=true "Creating a new Windows Azure Cloud Service project")
 
@@ -812,7 +812,7 @@ In this task, you add a worker role project to the solution and update it so tha
 
 1. If not already open, launch Visual Studio as administrator from **Start | All Programs | Microsoft Visual Studio 2010** by right clicking the **Microsoft Visual Studio 2010** shortcut and choosing **Run as administrator**. 
 
-1. In the **File** menu, choose **Open** and then **Project/Solution**. In the **Open Project** dialog, browse to **\source\Ex2-UsingWorkerRolesAndQueues\Begin**, select **Begin.sln** and click **Open**. Alternatively, you may continue with the solution that you obtained after completing the previous exercise.
+1. In the **File** menu, choose **Open** and then **Project/Solution**. In the **Open Project** dialog, browse to **\Source\Ex2-UsingWorkerRolesAndQueues\Begin**, select **Begin.sln** and click **Open**. Alternatively, you may continue with the solution that you obtained after completing the previous exercise.
 
 1. In **Solution Explorer**, right-click the Roles node in the **GuestBook** project, point to **Add** and then select **New Worker Role Project**.
 
@@ -1199,7 +1199,7 @@ In this task, you publish the application to the staging environment using the M
 
 1. If the **User Account Control** dialog appears, click **Continue**.
 
-1. In the **File** menu, choose **Open** and then **Project/Solution**. In the **Open Project** dialog, browse to **\source\Ex3-WindowsAzureDeployment**. Select **Begin.sln** in the **Begin** folder and click **Open**. 
+1. In the **File** menu, choose **Open** and then **Project/Solution**. In the **Open Project** dialog, browse to **\Source\Ex3-WindowsAzureDeployment**. Select **Begin.sln** in the **Begin** folder and click **Open**. 
 Alternatively, you may continue with the solution that you obtained after completing the previous exercise. 
 
 1. To configure the storage before publishing the service, open the **ServiceConfiguration.cscfg** file you will use to publish the project (e.g. **ServiceConfiguration.Cloud.cscfg**), which is located in **GuestBook** service. Replace the placeholder labeled _[YOUR\_ACCOUNT\_NAME]_ with the **Storage Account Name** that you chose when you configured the storage account in Task 1. If you followed the recommendation, the name should follow the pattern ***\<yourname\>guestbook***, where <_yourname_> is a unique name. Make sure to replace both instances of the placeholder, one for the _DataConnectionString_ and the second one for the _Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString_.
