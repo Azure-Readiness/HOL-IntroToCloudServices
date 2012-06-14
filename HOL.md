@@ -79,7 +79,7 @@ This hands-on lab includes the following exercises:
 
 1. [Publishing a Windows Azure Application](#Exercise3)
 
-Estimated time to complete this lab: **75** minutes.
+Estimated time to complete this lab: **120** minutes.
 
 >**Note:** Each exercise is accompanied by a starting solution located in the Begin folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and that they will not necessarily work until you complete the exercise. Inside the source code for an exercise, you will also find an End folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
 
@@ -417,7 +417,7 @@ In this task, you update the web role project that you generated in Task 1, when
 
 1. The web role template generates a default page. You will replace it with another page that contains the UI of the guest book application. To delete the page, in **Solution Explorer**, right-click **Default.aspx** in the **GuestBook_WebRole** project and select **Delete**.
 
-1. Add the main page and its associated assets to the web role. To do this, right-click **GuestBook_WebRole** in **Solution Explorer**, point to **Add** and select **Existing Item**. In the **Add Existing Item** dialog, browse to the **Assets** folder in **\Source\Ex1-BuildingYourFirstWindowsAzureAppCS**, hold the **CTRL** key down while you select every file in this folder and click **Add**.
+1. Add the main page and its associated assets to the web role. To do this, right-click **GuestBook_WebRole** in **Solution Explorer**, point to **Add** and select **Existing Item**. In the **Add Existing Item** dialog, browse to the **Assets** folder in **\Source\Ex1-BuildingYourFirstWindowsAzureApp**, hold the **CTRL** key down while you select every file in this folder and click **Add**.
 
 	>**Note:** The **Assets** folder contains five files that you need to add to the project, a Default.aspx file with its code-behind and designer files, a CSS file, and an image file.
 
