@@ -1,4 +1,6 @@
-# Introduction to Cloud Services #
+﻿# Introduction to Cloud Services #
+
+> **Note:** A Visual Studio 2012 version of this Hands-on Lab can be found in [GitHub](https://github.com/WindowsAzure-TrainingKit/HOL-IntroToCloudServices-VS2012).
 
 ## Hands-on Lab ##
 
